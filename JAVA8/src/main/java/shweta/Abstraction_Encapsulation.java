@@ -29,11 +29,11 @@ public class Abstraction_Encapsulation {
 
 		A a = new B();
 		B b = new B();
-		
+		System.out.println("changes made by Dinesh ");
 		System.out.println("I've made another changes in STS ");
 		System.out.printf(" I've made few changes in the report  for which we're going to Pull the changes !!!! ");
-		System.out.printf("The value of instance parameters are as follows : %d : %d : %d : %d : %d  -- ", a.a, a.b,
-				a.c/* these variables are out of it's scope ,a.d,a.e */);
+		//System.out.printf("The value of instance parameters are as follows : %d : %d : %d : %d : %d  -- ", a.a, a.b,
+			//	a.c/* these variables are out of it's scope ,a.d,a.e */);
 		// a.fn2(); as it is out of it's scope
 		System.out.printf("The value of instance parameters are as follows : %d : %d : %d : %d : %d  -- ", b.a, b.b,
 				b.c, b.d, b.e);
